@@ -1,10 +1,45 @@
 # Nifty100 Data Foundation
 
-Sprint 1 - Data Ingestion & ETL
+## Project Overview
+This project is part of the Bluestock Fintech Data Analyst Internship.
 
-## Goal
+The objective is to build a Financial Intelligence Platform for Nifty100 companies using real financial datasets.
 
-Build a validated SQLite database (nifty100.db) from 12 source files using ETL pipelines, data quality validation, and automated testing.
+## Features Completed
 
-## Sprint 1
-Day 01 – Environment Setup
+### Day 1
+- Project setup
+- Folder structure creation
+- Virtual environment setup
+- GitHub repository initialization
+
+### Day 2
+- Data normalizer module
+- Unit tests using pytest
+- Test validation
+
+### Day 3
+- Data validation engine
+- Duplicate checks
+- Foreign key checks
+- Validation report generation
+
+### Day 4
+- Imported Bluestock Nifty100 dataset
+- Converted companies.xlsx to companies_clean.csv
+- Processed dataset storage
+
+## Project Structure
+
+## Technologies Used
+
+- Python
+- Pandas
+- Pytest
+- Git & GitHub
+- VS Code
+
+## Author
+
+Swamy Manikanta
+Bluestock Fintech Data Analyst Intern
