@@ -1,45 +1,63 @@
-# Nifty100 Data Foundation
+# Nifty100 Financial Intelligence Platform
 
 ## Project Overview
-This project is part of the Bluestock Fintech Data Analyst Internship.
+This project was developed as part of the Bluestock Fintech Data Analyst Internship.
 
-The objective is to build a Financial Intelligence Platform for Nifty100 companies using real financial datasets.
+The objective is to build a Financial Intelligence Platform for Nifty100 companies by collecting, validating, storing, and analyzing financial datasets.
 
-## Features Completed
+## Sprint 1 – Data Foundation
 
-### Day 1
-- Project setup
-- Folder structure creation
-- Virtual environment setup
-- GitHub repository initialization
+### Deliverables
+- nifty100.db (SQLite Database)
+- README.md
+- validation_failures.csv
+- top10_roe_companies.csv
+- top10_roe_eda.csv
+- top10_roe_chart.png
+- top10_roce_chart.png
 
-### Day 2
-- Data normalizer module
-- Unit tests using pytest
-- Test validation
+## Database Summary
+- Total Companies: 92
+- Tables: 10
+- Stock Price Records: 5520
+- Profit & Loss Records: 1276
+- Balance Sheet Records: 1312
+- Cash Flow Records: 1187
 
-### Day 3
-- Data validation engine
-- Duplicate checks
-- Foreign key checks
-- Validation report generation
+## Data Quality Validation
+Implemented validation checks for:
+- Primary Key Validation
+- Foreign Key Validation
+- Duplicate Record Detection
+- Missing Value Checks
+- Financial Data Consistency Checks
 
-### Day 4
-- Imported Bluestock Nifty100 dataset
-- Converted companies.xlsx to companies_clean.csv
-- Processed dataset storage
+Validation results are available in:
+`validation_failures.csv`
 
-## Project Structure
+## Exploratory Data Analysis
+Performed:
+- ROE Analysis
+- ROCE Analysis
+- Top Performing Companies Identification
+- Financial Dataset Exploration
+
+Generated Outputs:
+- top10_roe_chart.png
+- top10_roce_chart.png
+- top10_roe_eda.csv
+- top10_roe_companies.csv
 
 ## Technologies Used
-
 - Python
 - Pandas
-- Pytest
-- Git & GitHub
+- SQLite
+- Matplotlib
 - VS Code
+- Git & GitHub
 
 ## Author
-
 Swamy Manikanta
-Bluestock Fintech Data Analyst Intern
+
+Data Analyst Intern
+Bluestock Fintech
